@@ -1,9 +1,9 @@
-This is a demo about how to use the sprinf cloud function with Spring boot adapter
+This is a demo about how to use the spring cloud function with Spring boot adapter
 
-The dmo also shows how to laod the custom keystore and test the prsence of keystore alias
+The demo also shows how to laod the custom keystore and test the presence of a keystore alias
 
 how to run: mvn clean package
 
-Load target/springclodufunction-1.0-SNAPSHOT-shaded.jar to aws lambda and then run the test
+Load target/springclodufunction-1.0-shaded.jar to aws lambda and then create the test event with a string
 
-Test: "ABBA"
+E.g. Test: "ABBA"
