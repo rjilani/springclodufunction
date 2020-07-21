@@ -47,6 +47,6 @@ public class CloudFunctionApplication {
         } catch (KeyStoreException e) {
             e.printStackTrace();
         }
-        return value -> new StringBuilder("ABBA").reverse().toString();
+        return value -> new StringBuilder(value).reverse().toString();
     }
 }

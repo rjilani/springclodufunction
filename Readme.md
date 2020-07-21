@@ -6,4 +6,4 @@ how to run: mvn clean package
 
 Load target/springclodufunction-1.0-SNAPSHOT-shaded.jar to aws lambda and then run the test
 
-Test: TBD
+Test: "ABBA"
